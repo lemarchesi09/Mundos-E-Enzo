@@ -1,0 +1,56 @@
+header{
+    .cont-cont{
+        background-image: url("../assets/slider-1.png");
+        height: 768px;
+        width: 1366px;
+    }
+    .cont-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+    nav{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Roboto', sans-serif;
+        li{
+            padding-left: 21px;
+            color: white;
+        }
+        
+    }
+
+    .container{
+        margin-left: 101px;
+        margin-right: 101px;
+    }
+    hr{
+        border-color: $colorPrimario
+    }
+    h1{
+        margin-top: 191px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 48px;
+        line-height: 52px;
+        color: white;
+    }
+    
+    h4{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        
+    }
+    
+    button{
+        background-color: $colorPrimario;
+        border-radius: 25px;
+        height: 48px;
+        width: 144px;
+        border-style: none;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 7px;
+    }
+}
