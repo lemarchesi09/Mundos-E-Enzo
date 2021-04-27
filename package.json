@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  },
+  "name": "modulo4",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemarchesi09/Mundos-E-Enzo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemarchesi09/Mundos-E-Enzo/issues"
+  },
+  "homepage": "https://github.com/lemarchesi09/Mundos-E-Enzo#readme",
+  "description": ""
+}

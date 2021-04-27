@@ -19,8 +19,17 @@ header .cont-header {
   padding-bottom: 33px;
 }
 
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 header nav {
-  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,6 +43,7 @@ header nav {
 header nav li {
   padding-left: 21px;
   color: white;
+  list-style: none;
 }
 
 header .container {

@@ -11,14 +11,20 @@ header{
         padding-top: 33px;
         padding-bottom: 33px;
     }
+    ul{
+        display: flex;
+        flex-direction: row;
+        
+    }
     nav{
-        list-style: none;
+        
         display: flex;
         flex-direction: row;
         font-family: 'Roboto', sans-serif;
         li{
             padding-left: 21px;
             color: white;
+            list-style: none;
         }
         
     }
